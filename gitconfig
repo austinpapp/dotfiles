@@ -1,0 +1,15 @@
+[user]
+    name = apapp
+    email = apapp@bloomberg.net
+[core]
+    editor = vim
+[credential "https://github.com/"]
+    sslVerify = false
+    username = austinpapp
+[credential]
+    helper = cache
+[credential "https://bbgithub.dev.bloomberg.com"]
+    sslVerify = false
+    username = apapp
+[http]
+    sslVerify = false
