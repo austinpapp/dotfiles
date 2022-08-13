@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.pyenv/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.pyenv/bin:$HOME/go/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/apapp/.oh-my-zsh"
@@ -102,5 +102,8 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 eval "$(pyenv virtualenv-init -)"
 
-
+# fuzz search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# k8s autocomplete
+source <(kubectl completion zsh)
